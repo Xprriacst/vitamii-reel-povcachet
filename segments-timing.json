@@ -1,0 +1,178 @@
+{
+ "_comment": "Timeline réelle POVCACHET, calée sur la VO Steph-rapide122-v2-APAISE (48.8 s). Frontières = milieux des gaps RMS (detect-silences), sauf 03→04 déplacée à 7.30 pour que clipA (3.04 s recyclé) remplisse son slot sans stretch. total = 51.5 (VO 48.80 + end card).",
+ "duration": 51.5,
+ "vo_duration": 48.8,
+ "fps": 30,
+ "timeline": [
+  {
+   "clip": "01",
+   "src": "brolls-gen/plan01_hook_gratte_veo-lite_v1.mp4",
+   "start": 0.0,
+   "end": 1.44,
+   "why": "hook — grattage patte arrière, zones rouges (2 premières s du clip = patte arrière nette)"
+  },
+  {
+   "clip": "02",
+   "src": "brolls-gen/plan02_mains-offrandes_v1.mp4",
+   "start": 1.44,
+   "end": 5.04,
+   "why": "mains fromage / beurre de cacahuète, chien méfiant"
+  },
+  {
+   "clip": "03",
+   "src": "brolls-gen/plan03_apaise_v1.mp4",
+   "start": 5.04,
+   "end": 7.3,
+   "src_offset": 1.5,
+   "why": "apaisé — fin du clip (yeux fermés) ; les rougeurs persistent → glow HyperFrames en compense"
+  },
+  {
+   "clip": "04",
+   "src": "brolls/broll_maman-cachet-dans-fromage_3s_muet_clipA.mp4",
+   "start": 7.3,
+   "end": 10.34,
+   "why": "RECYCLÉ clipA — maman malaxe le fromage (91 frames = la source entière, zéro stretch)"
+  },
+  {
+   "clip": "05",
+   "src": "brolls-gen/plan05_fromage-xray_v1.mp4",
+   "start": 10.34,
+   "end": 12.54,
+   "transition_in": "whipzoom",
+   "why": "macro fromage radiographie — début du clip (le halo devient orageux après 2 s)"
+  },
+  {
+   "clip": "06",
+   "src": "brolls/broll_maman-cachet-dans-beurre-cacahuete_3s_muet_clipB.mp4",
+   "start": 12.54,
+   "end": 13.67,
+   "src_offset": 0.6,
+   "why": "RECYCLÉ clipB — cuillère beurre de cacahuète + cachet"
+  },
+  {
+   "clip": "07",
+   "src": "brolls-gen/plan07_refus-secoue_v1.mp4",
+   "start": 13.67,
+   "end": 15.89,
+   "why": "refus — secoue la tête, oreilles qui claquent"
+  },
+  {
+   "clip": "08",
+   "src": "brolls-gen/plan08_recrache_v1.mp4",
+   "start": 15.89,
+   "end": 17.42,
+   "src_offset": 1.5,
+   "why": "mâche puis recrache le cachet (le crachat est en 2e moitié de source)"
+  },
+  {
+   "clip": "09",
+   "src": "work/stills/sf-p09.png",
+   "start": 17.42,
+   "end": 19.22,
+   "kenburns": true,
+   "why": "macro cachet mouillé au sol — still + Ken Burns"
+  },
+  {
+   "clip": "10",
+   "src": "brolls-gen/plan10_regard-coupable_v1.mp4",
+   "start": 19.22,
+   "end": 21.6,
+   "why": "regard en coin coupable"
+  },
+  {
+   "clip": "11",
+   "src": "brolls-gen/plan11_maman-epuisee_v1.mp4",
+   "start": 21.6,
+   "end": 24.89,
+   "src_offset": 0.3,
+   "why": "maman épuisée, main levée — MD horloge + tic-tac"
+  },
+  {
+   "clip": "12",
+   "src": "brolls-gen/plan12_colis-pot_v1.mp4",
+   "start": 24.89,
+   "end": 27.68,
+   "transition_in": "lightleak",
+   "why": "bascule SOLUTION — colis ouvert, pot Vitamii sorti (light-leak)"
+  },
+  {
+   "clip": "13",
+   "src": "brolls-gen/plan13_salto_v1.mp4",
+   "start": 27.68,
+   "end": 30.0,
+   "why": "salto — 2,3 premières s (ensuite le chien reste debout)"
+  },
+  {
+   "clip": "14",
+   "src": "brolls-gen/plan14_donne-friandise_v1.mp4",
+   "start": 30.0,
+   "end": 31.64,
+   "src_offset": 0.5,
+   "why": "pot ouvert en main + friandise cœur tendue"
+  },
+  {
+   "clip": "15",
+   "src": "brolls-gen/plan15_engloutit_v1.mp4",
+   "start": 31.64,
+   "end": 33.52,
+   "why": "gobe la friandise, se lèche les babines"
+  },
+  {
+   "clip": "16",
+   "src": "brolls-gen/plan16_pot-presentation_v2.mp4",
+   "start": 33.52,
+   "end": 37.8,
+   "stretch": true,
+   "transition_in": "whipzoom",
+   "why": "présentation produit (v2 stable) — slot 4,27 s / source 4,0 s → setpts ×1,067 (7 %, invisible) ; les 12 pops = MD"
+  },
+  {
+   "clip": "17",
+   "src": "brolls-gen/plan14_donne-friandise_v1.mp4",
+   "start": 37.8,
+   "end": 39.48,
+   "src_offset": 2.25,
+   "why": "FIX v2 — fin du plan 14 (maman donne la friandise a decouvert = fini les cachets a cacher) ; le clip gamelle glitchait (gamelle perchee)"
+  },
+  {
+   "clip": "18",
+   "src": "brolls-gen/plan19_parc-trotte_v1.mp4",
+   "start": 39.48,
+   "end": 41.19,
+   "why": "FIX v3 — bascule parc avancee a 39.48 (comme la ref Wuffes : 'no more messy floors' sur le parc) ; trot continu avec le slot 19",
+   "src_offset": 0.0,
+   "transition_in": "lightleak"
+  },
+  {
+   "clip": "19",
+   "src": "brolls-gen/plan19_parc-trotte_v1.mp4",
+   "start": 41.19,
+   "end": 42.33,
+   "src_offset": 1.7,
+   "why": "suite frame-a-frame du slot 18 (meme source, offset = duree du slot 18) — un seul trot continu 39.48 -> 42.33"
+  },
+  {
+   "clip": "20",
+   "src": "brolls-gen/plan20_parc-calin_v1.mp4",
+   "start": 42.33,
+   "end": 45.6,
+   "src_offset": 0.4,
+   "why": "elle s'agenouille, câlin, contre-jour"
+  },
+  {
+   "clip": "21",
+   "src": "brolls-gen/plan21_parc-pouce_v1.mp4",
+   "start": 45.6,
+   "end": 49.3,
+   "why": "elle se relève, pouce levé — badge 90 jours en MD"
+  },
+  {
+   "clip": "22",
+   "src": "work/stills/still-parc.png",
+   "start": 49.3,
+   "end": 51.5,
+   "kenburns": true,
+   "why": "fond sous l'end card (recouvert par l'iris dès 49,3)"
+  }
+ ]
+}

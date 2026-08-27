@@ -1,0 +1,1510 @@
+{
+  "text": "Voici comment mes gratte-jais et mon côté difficile à table ont forcé maman à trouver une meilleure solution pour apaiser mes démangeaisons. Chaque matin, maman galérait à me faire avaler mon complément en cachet. Elle le cachait dans un morceau de fromage ou du beurre de cacahuète, mais je suis bien trop difficile pour ça. Je mangeais le fromage et je recrachais le cachet par terre. Je mettais un de ces bazar. Dix minutes chaque jour rien que pour me forcer à l'avaler. Et puis elle a ramené les friandises vitamis. Maintenant je fais carrément des salto. Elles ont un goût délicieux, alors je les engloutis direct. En plus, maman adore douze actifs validés par des vétérinaires. Fini les cachets à cachet, fini le sol en bazar. Un chien heureux et une routine anti démangeaison en deux secondes chrono. Vous ne risquez rien, offrez lui la cure de quatre-vingt-dix jours.",
+  "language": "French",
+  "transcribe_time_sec": 62.84820890426636,
+  "model": "QwenX (Qwen3-ASR-0.6B + Qwen3-ForcedAligner-0.6B-8bit)",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.4,
+      "text": "Voici"
+    },
+    {
+      "start": 0.4,
+      "end": 0.64,
+      "text": "comment"
+    },
+    {
+      "start": 0.64,
+      "end": 0.8,
+      "text": "mes"
+    },
+    {
+      "start": 0.8,
+      "end": 1.36,
+      "text": "grattejais"
+    },
+    {
+      "start": 1.44,
+      "end": 1.44,
+      "text": "et"
+    },
+    {
+      "start": 1.44,
+      "end": 1.6,
+      "text": "mon"
+    },
+    {
+      "start": 1.6,
+      "end": 1.84,
+      "text": "côté"
+    },
+    {
+      "start": 1.84,
+      "end": 2.32,
+      "text": "difficile"
+    },
+    {
+      "start": 2.32,
+      "end": 2.4,
+      "text": "à"
+    },
+    {
+      "start": 2.4,
+      "end": 2.72,
+      "text": "table"
+    },
+    {
+      "start": 2.96,
+      "end": 3.04,
+      "text": "ont"
+    },
+    {
+      "start": 3.04,
+      "end": 3.36,
+      "text": "forcé"
+    },
+    {
+      "start": 3.36,
+      "end": 3.68,
+      "text": "maman"
+    },
+    {
+      "start": 3.76,
+      "end": 3.84,
+      "text": "à"
+    },
+    {
+      "start": 3.84,
+      "end": 4.16,
+      "text": "trouver"
+    },
+    {
+      "start": 4.16,
+      "end": 4.24,
+      "text": "une"
+    },
+    {
+      "start": 4.24,
+      "end": 4.56,
+      "text": "meilleure"
+    },
+    {
+      "start": 4.56,
+      "end": 5.04,
+      "text": "solution"
+    },
+    {
+      "start": 5.04,
+      "end": 5.2,
+      "text": "pour"
+    },
+    {
+      "start": 5.2,
+      "end": 5.6,
+      "text": "apaiser"
+    },
+    {
+      "start": 5.6,
+      "end": 5.68,
+      "text": "mes"
+    },
+    {
+      "start": 5.68,
+      "end": 6.24,
+      "text": "démangeaisons"
+    },
+    {
+      "start": 7.061187500000001,
+      "end": 7.3011875,
+      "text": "Chaque"
+    },
+    {
+      "start": 7.3011875,
+      "end": 7.7011875000000005,
+      "text": "matin"
+    },
+    {
+      "start": 7.781187500000001,
+      "end": 8.0211875,
+      "text": "maman"
+    },
+    {
+      "start": 8.1011875,
+      "end": 8.5811875,
+      "text": "galérait"
+    },
+    {
+      "start": 8.5811875,
+      "end": 8.6611875,
+      "text": "à"
+    },
+    {
+      "start": 8.6611875,
+      "end": 8.7411875,
+      "text": "me"
+    },
+    {
+      "start": 8.7411875,
+      "end": 8.9011875,
+      "text": "faire"
+    },
+    {
+      "start": 8.9011875,
+      "end": 9.221187500000001,
+      "text": "avaler"
+    },
+    {
+      "start": 9.221187500000001,
+      "end": 9.301187500000001,
+      "text": "mon"
+    },
+    {
+      "start": 9.301187500000001,
+      "end": 9.7011875,
+      "text": "complément"
+    },
+    {
+      "start": 9.7011875,
+      "end": 9.7811875,
+      "text": "en"
+    },
+    {
+      "start": 9.7811875,
+      "end": 10.1811875,
+      "text": "cachet"
+    },
+    {
+      "start": 10.7411875,
+      "end": 10.9011875,
+      "text": "Elle"
+    },
+    {
+      "start": 10.9011875,
+      "end": 10.9811875,
+      "text": "le"
+    },
+    {
+      "start": 10.9811875,
+      "end": 11.301187500000001,
+      "text": "cachait"
+    },
+    {
+      "start": 11.301187500000001,
+      "end": 11.461187500000001,
+      "text": "dans"
+    },
+    {
+      "start": 11.461187500000001,
+      "end": 11.5411875,
+      "text": "un"
+    },
+    {
+      "start": 11.5411875,
+      "end": 11.781187500000001,
+      "text": "morceau"
+    },
+    {
+      "start": 11.781187500000001,
+      "end": 11.941187500000002,
+      "text": "de"
+    },
+    {
+      "start": 11.941187500000002,
+      "end": 12.4211875,
+      "text": "fromage"
+    },
+    {
+      "start": 12.5011875,
+      "end": 12.5811875,
+      "text": "ou"
+    },
+    {
+      "start": 12.5811875,
+      "end": 12.6611875,
+      "text": "du"
+    },
+    {
+      "start": 12.6611875,
+      "end": 12.9011875,
+      "text": "beurre"
+    },
+    {
+      "start": 12.9011875,
+      "end": 12.9011875,
+      "text": "de"
+    },
+    {
+      "start": 12.9011875,
+      "end": 13.5411875,
+      "text": "cacahuète"
+    },
+    {
+      "start": 13.8611875,
+      "end": 14.0211875,
+      "text": "mais"
+    },
+    {
+      "start": 14.0211875,
+      "end": 14.1011875,
+      "text": "je"
+    },
+    {
+      "start": 14.1011875,
+      "end": 14.3411875,
+      "text": "suis"
+    },
+    {
+      "start": 14.3411875,
+      "end": 14.6611875,
+      "text": "bien"
+    },
+    {
+      "start": 14.6611875,
+      "end": 14.8211875,
+      "text": "trop"
+    },
+    {
+      "start": 14.8211875,
+      "end": 15.301187500000001,
+      "text": "difficile"
+    },
+    {
+      "start": 15.301187500000001,
+      "end": 15.5411875,
+      "text": "pour"
+    },
+    {
+      "start": 15.5411875,
+      "end": 15.7011875,
+      "text": "ça"
+    },
+    {
+      "start": 16.1811875,
+      "end": 16.3411875,
+      "text": "Je"
+    },
+    {
+      "start": 16.3411875,
+      "end": 16.6611875,
+      "text": "mangeais"
+    },
+    {
+      "start": 16.6611875,
+      "end": 16.741187500000002,
+      "text": "le"
+    },
+    {
+      "start": 16.741187500000002,
+      "end": 17.2211875,
+      "text": "fromage"
+    },
+    {
+      "start": 17.381187500000003,
+      "end": 17.4611875,
+      "text": "et"
+    },
+    {
+      "start": 17.4611875,
+      "end": 17.5411875,
+      "text": "je"
+    },
+    {
+      "start": 17.5411875,
+      "end": 18.1811875,
+      "text": "recrachais"
+    },
+    {
+      "start": 18.1811875,
+      "end": 18.3411875,
+      "text": "le"
+    },
+    {
+      "start": 18.3411875,
+      "end": 18.5811875,
+      "text": "cachet"
+    },
+    {
+      "start": 18.6611875,
+      "end": 18.8211875,
+      "text": "par"
+    },
+    {
+      "start": 18.8211875,
+      "end": 19.1411875,
+      "text": "terre"
+    },
+    {
+      "start": 19.621187499999998,
+      "end": 19.7811875,
+      "text": "Je"
+    },
+    {
+      "start": 19.7811875,
+      "end": 20.1011875,
+      "text": "mettais"
+    },
+    {
+      "start": 20.1811875,
+      "end": 20.2611875,
+      "text": "un"
+    },
+    {
+      "start": 20.2611875,
+      "end": 20.421187500000002,
+      "text": "de"
+    },
+    {
+      "start": 20.421187500000002,
+      "end": 20.6611875,
+      "text": "ces"
+    },
+    {
+      "start": 20.6611875,
+      "end": 21.381187500000003,
+      "text": "bazar"
+    },
+    {
+      "start": 21.8611875,
+      "end": 22.1011875,
+      "text": "Dix"
+    },
+    {
+      "start": 22.1011875,
+      "end": 22.3411875,
+      "text": "minutes"
+    },
+    {
+      "start": 22.3411875,
+      "end": 22.5811875,
+      "text": "chaque"
+    },
+    {
+      "start": 22.5811875,
+      "end": 22.9011875,
+      "text": "jour"
+    },
+    {
+      "start": 22.9811875,
+      "end": 23.3011875,
+      "text": "rien"
+    },
+    {
+      "start": 23.4611875,
+      "end": 23.4611875,
+      "text": "que"
+    },
+    {
+      "start": 23.4611875,
+      "end": 23.6211875,
+      "text": "pour"
+    },
+    {
+      "start": 23.6211875,
+      "end": 23.7811875,
+      "text": "me"
+    },
+    {
+      "start": 23.7811875,
+      "end": 24.1811875,
+      "text": "forcer"
+    },
+    {
+      "start": 24.1811875,
+      "end": 24.261187500000002,
+      "text": "à"
+    },
+    {
+      "start": 24.261187500000002,
+      "end": 24.6611875,
+      "text": "l'avaler"
+    },
+    {
+      "start": 25.3811875,
+      "end": 25.4611875,
+      "text": "Et"
+    },
+    {
+      "start": 25.4611875,
+      "end": 25.7811875,
+      "text": "puis"
+    },
+    {
+      "start": 25.7811875,
+      "end": 25.9411875,
+      "text": "elle"
+    },
+    {
+      "start": 25.9411875,
+      "end": 26.0211875,
+      "text": "a"
+    },
+    {
+      "start": 26.0211875,
+      "end": 26.3411875,
+      "text": "ramené"
+    },
+    {
+      "start": 26.3411875,
+      "end": 26.421187500000002,
+      "text": "les"
+    },
+    {
+      "start": 26.421187500000002,
+      "end": 27.0611875,
+      "text": "friandises"
+    },
+    {
+      "start": 27.0611875,
+      "end": 27.5411875,
+      "text": "vitamis"
+    },
+    {
+      "start": 28.0211875,
+      "end": 28.5011875,
+      "text": "Maintenant"
+    },
+    {
+      "start": 28.5011875,
+      "end": 28.6611875,
+      "text": "je"
+    },
+    {
+      "start": 28.6611875,
+      "end": 28.8211875,
+      "text": "fais"
+    },
+    {
+      "start": 28.8211875,
+      "end": 29.2211875,
+      "text": "carrément"
+    },
+    {
+      "start": 29.2211875,
+      "end": 29.3011875,
+      "text": "des"
+    },
+    {
+      "start": 29.3011875,
+      "end": 29.7011875,
+      "text": "salto"
+    },
+    {
+      "start": 30.325937500000002,
+      "end": 30.5659375,
+      "text": "Elles"
+    },
+    {
+      "start": 30.5659375,
+      "end": 30.645937500000002,
+      "text": "ont"
+    },
+    {
+      "start": 30.645937500000002,
+      "end": 30.7259375,
+      "text": "un"
+    },
+    {
+      "start": 30.7259375,
+      "end": 30.965937500000003,
+      "text": "goût"
+    },
+    {
+      "start": 30.965937500000003,
+      "end": 31.605937500000003,
+      "text": "délicieux"
+    },
+    {
+      "start": 31.8459375,
+      "end": 32.1659375,
+      "text": "alors"
+    },
+    {
+      "start": 32.1659375,
+      "end": 32.245937500000004,
+      "text": "je"
+    },
+    {
+      "start": 32.245937500000004,
+      "end": 32.4059375,
+      "text": "les"
+    },
+    {
+      "start": 32.4059375,
+      "end": 32.8059375,
+      "text": "engloutis"
+    },
+    {
+      "start": 32.8059375,
+      "end": 33.4459375,
+      "text": "direct"
+    },
+    {
+      "start": 33.6859375,
+      "end": 33.7659375,
+      "text": "En"
+    },
+    {
+      "start": 33.7659375,
+      "end": 34.1659375,
+      "text": "plus"
+    },
+    {
+      "start": 34.245937500000004,
+      "end": 34.485937500000006,
+      "text": "maman"
+    },
+    {
+      "start": 34.485937500000006,
+      "end": 35.0459375,
+      "text": "adore"
+    },
+    {
+      "start": 35.3659375,
+      "end": 35.6859375,
+      "text": "douze"
+    },
+    {
+      "start": 35.6859375,
+      "end": 36.0859375,
+      "text": "actifs"
+    },
+    {
+      "start": 36.1659375,
+      "end": 36.565937500000004,
+      "text": "validés"
+    },
+    {
+      "start": 36.565937500000004,
+      "end": 36.8059375,
+      "text": "par"
+    },
+    {
+      "start": 36.8059375,
+      "end": 36.885937500000004,
+      "text": "des"
+    },
+    {
+      "start": 36.885937500000004,
+      "end": 37.5259375,
+      "text": "vétérinaires"
+    },
+    {
+      "start": 38.0859375,
+      "end": 38.4059375,
+      "text": "Fini"
+    },
+    {
+      "start": 38.4059375,
+      "end": 38.565937500000004,
+      "text": "les"
+    },
+    {
+      "start": 38.565937500000004,
+      "end": 38.8059375,
+      "text": "cachets"
+    },
+    {
+      "start": 38.8059375,
+      "end": 38.885937500000004,
+      "text": "à"
+    },
+    {
+      "start": 38.885937500000004,
+      "end": 39.3659375,
+      "text": "cachet"
+    },
+    {
+      "start": 39.6059375,
+      "end": 40.0059375,
+      "text": "fini"
+    },
+    {
+      "start": 40.0059375,
+      "end": 40.0859375,
+      "text": "le"
+    },
+    {
+      "start": 40.0859375,
+      "end": 40.4059375,
+      "text": "sol"
+    },
+    {
+      "start": 40.4059375,
+      "end": 40.485937500000006,
+      "text": "en"
+    },
+    {
+      "start": 40.485937500000006,
+      "end": 41.0459375,
+      "text": "bazar"
+    },
+    {
+      "start": 41.3659375,
+      "end": 41.5259375,
+      "text": "Un"
+    },
+    {
+      "start": 41.5259375,
+      "end": 41.845937500000005,
+      "text": "chien"
+    },
+    {
+      "start": 41.9259375,
+      "end": 42.1659375,
+      "text": "heureux"
+    },
+    {
+      "start": 42.4059375,
+      "end": 42.485937500000006,
+      "text": "et"
+    },
+    {
+      "start": 42.485937500000006,
+      "end": 42.6459375,
+      "text": "une"
+    },
+    {
+      "start": 42.6459375,
+      "end": 43.0459375,
+      "text": "routine"
+    },
+    {
+      "start": 43.1259375,
+      "end": 43.3659375,
+      "text": "anti"
+    },
+    {
+      "start": 43.3659375,
+      "end": 43.9259375,
+      "text": "démangeaison"
+    },
+    {
+      "start": 44.1659375,
+      "end": 44.3259375,
+      "text": "en"
+    },
+    {
+      "start": 44.3259375,
+      "end": 44.485937500000006,
+      "text": "deux"
+    },
+    {
+      "start": 44.485937500000006,
+      "end": 44.885937500000004,
+      "text": "secondes"
+    },
+    {
+      "start": 44.9659375,
+      "end": 45.3659375,
+      "text": "chrono"
+    },
+    {
+      "start": 45.845937500000005,
+      "end": 46.0059375,
+      "text": "Vous"
+    },
+    {
+      "start": 46.0059375,
+      "end": 46.0859375,
+      "text": "ne"
+    },
+    {
+      "start": 46.0859375,
+      "end": 46.4059375,
+      "text": "risquez"
+    },
+    {
+      "start": 46.4059375,
+      "end": 46.7259375,
+      "text": "rien"
+    },
+    {
+      "start": 46.9659375,
+      "end": 47.2859375,
+      "text": "offrez"
+    },
+    {
+      "start": 47.2859375,
+      "end": 47.3659375,
+      "text": "lui"
+    },
+    {
+      "start": 47.3659375,
+      "end": 47.5259375,
+      "text": "la"
+    },
+    {
+      "start": 47.5259375,
+      "end": 47.76593750000001,
+      "text": "cure"
+    },
+    {
+      "start": 47.76593750000001,
+      "end": 47.845937500000005,
+      "text": "de"
+    },
+    {
+      "start": 47.845937500000005,
+      "end": 48.485937500000006,
+      "text": "quatrevingtdix"
+    },
+    {
+      "start": 48.485937500000006,
+      "end": 48.8059375,
+      "text": "jours"
+    }
+  ],
+  "words": [
+    {
+      "text": "Voici",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "text": "comment",
+      "start": 0.4,
+      "end": 0.64
+    },
+    {
+      "text": "mes",
+      "start": 0.64,
+      "end": 0.8
+    },
+    {
+      "text": "grattejais",
+      "start": 0.8,
+      "end": 1.36
+    },
+    {
+      "text": "et",
+      "start": 1.44,
+      "end": 1.44
+    },
+    {
+      "text": "mon",
+      "start": 1.44,
+      "end": 1.6
+    },
+    {
+      "text": "côté",
+      "start": 1.6,
+      "end": 1.84
+    },
+    {
+      "text": "difficile",
+      "start": 1.84,
+      "end": 2.32
+    },
+    {
+      "text": "à",
+      "start": 2.32,
+      "end": 2.4
+    },
+    {
+      "text": "table",
+      "start": 2.4,
+      "end": 2.72
+    },
+    {
+      "text": "ont",
+      "start": 2.96,
+      "end": 3.04
+    },
+    {
+      "text": "forcé",
+      "start": 3.04,
+      "end": 3.36
+    },
+    {
+      "text": "maman",
+      "start": 3.36,
+      "end": 3.68
+    },
+    {
+      "text": "à",
+      "start": 3.76,
+      "end": 3.84
+    },
+    {
+      "text": "trouver",
+      "start": 3.84,
+      "end": 4.16
+    },
+    {
+      "text": "une",
+      "start": 4.16,
+      "end": 4.24
+    },
+    {
+      "text": "meilleure",
+      "start": 4.24,
+      "end": 4.56
+    },
+    {
+      "text": "solution",
+      "start": 4.56,
+      "end": 5.04
+    },
+    {
+      "text": "pour",
+      "start": 5.04,
+      "end": 5.2
+    },
+    {
+      "text": "apaiser",
+      "start": 5.2,
+      "end": 5.6
+    },
+    {
+      "text": "mes",
+      "start": 5.6,
+      "end": 5.68
+    },
+    {
+      "text": "démangeaisons",
+      "start": 5.68,
+      "end": 6.24
+    },
+    {
+      "text": "Chaque",
+      "start": 7.061187500000001,
+      "end": 7.3011875
+    },
+    {
+      "text": "matin",
+      "start": 7.3011875,
+      "end": 7.7011875000000005
+    },
+    {
+      "text": "maman",
+      "start": 7.781187500000001,
+      "end": 8.0211875
+    },
+    {
+      "text": "galérait",
+      "start": 8.1011875,
+      "end": 8.5811875
+    },
+    {
+      "text": "à",
+      "start": 8.5811875,
+      "end": 8.6611875
+    },
+    {
+      "text": "me",
+      "start": 8.6611875,
+      "end": 8.7411875
+    },
+    {
+      "text": "faire",
+      "start": 8.7411875,
+      "end": 8.9011875
+    },
+    {
+      "text": "avaler",
+      "start": 8.9011875,
+      "end": 9.221187500000001
+    },
+    {
+      "text": "mon",
+      "start": 9.221187500000001,
+      "end": 9.301187500000001
+    },
+    {
+      "text": "complément",
+      "start": 9.301187500000001,
+      "end": 9.7011875
+    },
+    {
+      "text": "en",
+      "start": 9.7011875,
+      "end": 9.7811875
+    },
+    {
+      "text": "cachet",
+      "start": 9.7811875,
+      "end": 10.1811875
+    },
+    {
+      "text": "Elle",
+      "start": 10.7411875,
+      "end": 10.9011875
+    },
+    {
+      "text": "le",
+      "start": 10.9011875,
+      "end": 10.9811875
+    },
+    {
+      "text": "cachait",
+      "start": 10.9811875,
+      "end": 11.301187500000001
+    },
+    {
+      "text": "dans",
+      "start": 11.301187500000001,
+      "end": 11.461187500000001
+    },
+    {
+      "text": "un",
+      "start": 11.461187500000001,
+      "end": 11.5411875
+    },
+    {
+      "text": "morceau",
+      "start": 11.5411875,
+      "end": 11.781187500000001
+    },
+    {
+      "text": "de",
+      "start": 11.781187500000001,
+      "end": 11.941187500000002
+    },
+    {
+      "text": "fromage",
+      "start": 11.941187500000002,
+      "end": 12.4211875
+    },
+    {
+      "text": "ou",
+      "start": 12.5011875,
+      "end": 12.5811875
+    },
+    {
+      "text": "du",
+      "start": 12.5811875,
+      "end": 12.6611875
+    },
+    {
+      "text": "beurre",
+      "start": 12.6611875,
+      "end": 12.9011875
+    },
+    {
+      "text": "de",
+      "start": 12.9011875,
+      "end": 12.9011875
+    },
+    {
+      "text": "cacahuète",
+      "start": 12.9011875,
+      "end": 13.5411875
+    },
+    {
+      "text": "mais",
+      "start": 13.8611875,
+      "end": 14.0211875
+    },
+    {
+      "text": "je",
+      "start": 14.0211875,
+      "end": 14.1011875
+    },
+    {
+      "text": "suis",
+      "start": 14.1011875,
+      "end": 14.3411875
+    },
+    {
+      "text": "bien",
+      "start": 14.3411875,
+      "end": 14.6611875
+    },
+    {
+      "text": "trop",
+      "start": 14.6611875,
+      "end": 14.8211875
+    },
+    {
+      "text": "difficile",
+      "start": 14.8211875,
+      "end": 15.301187500000001
+    },
+    {
+      "text": "pour",
+      "start": 15.301187500000001,
+      "end": 15.5411875
+    },
+    {
+      "text": "ça",
+      "start": 15.5411875,
+      "end": 15.7011875
+    },
+    {
+      "text": "Je",
+      "start": 16.1811875,
+      "end": 16.3411875
+    },
+    {
+      "text": "mangeais",
+      "start": 16.3411875,
+      "end": 16.6611875
+    },
+    {
+      "text": "le",
+      "start": 16.6611875,
+      "end": 16.741187500000002
+    },
+    {
+      "text": "fromage",
+      "start": 16.741187500000002,
+      "end": 17.2211875
+    },
+    {
+      "text": "et",
+      "start": 17.381187500000003,
+      "end": 17.4611875
+    },
+    {
+      "text": "je",
+      "start": 17.4611875,
+      "end": 17.5411875
+    },
+    {
+      "text": "recrachais",
+      "start": 17.5411875,
+      "end": 18.1811875
+    },
+    {
+      "text": "le",
+      "start": 18.1811875,
+      "end": 18.3411875
+    },
+    {
+      "text": "cachet",
+      "start": 18.3411875,
+      "end": 18.5811875
+    },
+    {
+      "text": "par",
+      "start": 18.6611875,
+      "end": 18.8211875
+    },
+    {
+      "text": "terre",
+      "start": 18.8211875,
+      "end": 19.1411875
+    },
+    {
+      "text": "Je",
+      "start": 19.621187499999998,
+      "end": 19.7811875
+    },
+    {
+      "text": "mettais",
+      "start": 19.7811875,
+      "end": 20.1011875
+    },
+    {
+      "text": "un",
+      "start": 20.1811875,
+      "end": 20.2611875
+    },
+    {
+      "text": "de",
+      "start": 20.2611875,
+      "end": 20.421187500000002
+    },
+    {
+      "text": "ces",
+      "start": 20.421187500000002,
+      "end": 20.6611875
+    },
+    {
+      "text": "bazar",
+      "start": 20.6611875,
+      "end": 21.381187500000003
+    },
+    {
+      "text": "Dix",
+      "start": 21.8611875,
+      "end": 22.1011875
+    },
+    {
+      "text": "minutes",
+      "start": 22.1011875,
+      "end": 22.3411875
+    },
+    {
+      "text": "chaque",
+      "start": 22.3411875,
+      "end": 22.5811875
+    },
+    {
+      "text": "jour",
+      "start": 22.5811875,
+      "end": 22.9011875
+    },
+    {
+      "text": "rien",
+      "start": 22.9811875,
+      "end": 23.3011875
+    },
+    {
+      "text": "que",
+      "start": 23.4611875,
+      "end": 23.4611875
+    },
+    {
+      "text": "pour",
+      "start": 23.4611875,
+      "end": 23.6211875
+    },
+    {
+      "text": "me",
+      "start": 23.6211875,
+      "end": 23.7811875
+    },
+    {
+      "text": "forcer",
+      "start": 23.7811875,
+      "end": 24.1811875
+    },
+    {
+      "text": "à",
+      "start": 24.1811875,
+      "end": 24.261187500000002
+    },
+    {
+      "text": "l'avaler",
+      "start": 24.261187500000002,
+      "end": 24.6611875
+    },
+    {
+      "text": "Et",
+      "start": 25.3811875,
+      "end": 25.4611875
+    },
+    {
+      "text": "puis",
+      "start": 25.4611875,
+      "end": 25.7811875
+    },
+    {
+      "text": "elle",
+      "start": 25.7811875,
+      "end": 25.9411875
+    },
+    {
+      "text": "a",
+      "start": 25.9411875,
+      "end": 26.0211875
+    },
+    {
+      "text": "ramené",
+      "start": 26.0211875,
+      "end": 26.3411875
+    },
+    {
+      "text": "les",
+      "start": 26.3411875,
+      "end": 26.421187500000002
+    },
+    {
+      "text": "friandises",
+      "start": 26.421187500000002,
+      "end": 27.0611875
+    },
+    {
+      "text": "vitamis",
+      "start": 27.0611875,
+      "end": 27.5411875
+    },
+    {
+      "text": "Maintenant",
+      "start": 28.0211875,
+      "end": 28.5011875
+    },
+    {
+      "text": "je",
+      "start": 28.5011875,
+      "end": 28.6611875
+    },
+    {
+      "text": "fais",
+      "start": 28.6611875,
+      "end": 28.8211875
+    },
+    {
+      "text": "carrément",
+      "start": 28.8211875,
+      "end": 29.2211875
+    },
+    {
+      "text": "des",
+      "start": 29.2211875,
+      "end": 29.3011875
+    },
+    {
+      "text": "salto",
+      "start": 29.3011875,
+      "end": 29.7011875
+    },
+    {
+      "text": "Elles",
+      "start": 30.325937500000002,
+      "end": 30.5659375
+    },
+    {
+      "text": "ont",
+      "start": 30.5659375,
+      "end": 30.645937500000002
+    },
+    {
+      "text": "un",
+      "start": 30.645937500000002,
+      "end": 30.7259375
+    },
+    {
+      "text": "goût",
+      "start": 30.7259375,
+      "end": 30.965937500000003
+    },
+    {
+      "text": "délicieux",
+      "start": 30.965937500000003,
+      "end": 31.605937500000003
+    },
+    {
+      "text": "alors",
+      "start": 31.8459375,
+      "end": 32.1659375
+    },
+    {
+      "text": "je",
+      "start": 32.1659375,
+      "end": 32.245937500000004
+    },
+    {
+      "text": "les",
+      "start": 32.245937500000004,
+      "end": 32.4059375
+    },
+    {
+      "text": "engloutis",
+      "start": 32.4059375,
+      "end": 32.8059375
+    },
+    {
+      "text": "direct",
+      "start": 32.8059375,
+      "end": 33.4459375
+    },
+    {
+      "text": "En",
+      "start": 33.6859375,
+      "end": 33.7659375
+    },
+    {
+      "text": "plus",
+      "start": 33.7659375,
+      "end": 34.1659375
+    },
+    {
+      "text": "maman",
+      "start": 34.245937500000004,
+      "end": 34.485937500000006
+    },
+    {
+      "text": "adore",
+      "start": 34.485937500000006,
+      "end": 35.0459375
+    },
+    {
+      "text": "douze",
+      "start": 35.3659375,
+      "end": 35.6859375
+    },
+    {
+      "text": "actifs",
+      "start": 35.6859375,
+      "end": 36.0859375
+    },
+    {
+      "text": "validés",
+      "start": 36.1659375,
+      "end": 36.565937500000004
+    },
+    {
+      "text": "par",
+      "start": 36.565937500000004,
+      "end": 36.8059375
+    },
+    {
+      "text": "des",
+      "start": 36.8059375,
+      "end": 36.885937500000004
+    },
+    {
+      "text": "vétérinaires",
+      "start": 36.885937500000004,
+      "end": 37.5259375
+    },
+    {
+      "text": "Fini",
+      "start": 38.0859375,
+      "end": 38.4059375
+    },
+    {
+      "text": "les",
+      "start": 38.4059375,
+      "end": 38.565937500000004
+    },
+    {
+      "text": "cachets",
+      "start": 38.565937500000004,
+      "end": 38.8059375
+    },
+    {
+      "text": "à",
+      "start": 38.8059375,
+      "end": 38.885937500000004
+    },
+    {
+      "text": "cachet",
+      "start": 38.885937500000004,
+      "end": 39.3659375
+    },
+    {
+      "text": "fini",
+      "start": 39.6059375,
+      "end": 40.0059375
+    },
+    {
+      "text": "le",
+      "start": 40.0059375,
+      "end": 40.0859375
+    },
+    {
+      "text": "sol",
+      "start": 40.0859375,
+      "end": 40.4059375
+    },
+    {
+      "text": "en",
+      "start": 40.4059375,
+      "end": 40.485937500000006
+    },
+    {
+      "text": "bazar",
+      "start": 40.485937500000006,
+      "end": 41.0459375
+    },
+    {
+      "text": "Un",
+      "start": 41.3659375,
+      "end": 41.5259375
+    },
+    {
+      "text": "chien",
+      "start": 41.5259375,
+      "end": 41.845937500000005
+    },
+    {
+      "text": "heureux",
+      "start": 41.9259375,
+      "end": 42.1659375
+    },
+    {
+      "text": "et",
+      "start": 42.4059375,
+      "end": 42.485937500000006
+    },
+    {
+      "text": "une",
+      "start": 42.485937500000006,
+      "end": 42.6459375
+    },
+    {
+      "text": "routine",
+      "start": 42.6459375,
+      "end": 43.0459375
+    },
+    {
+      "text": "anti",
+      "start": 43.1259375,
+      "end": 43.3659375
+    },
+    {
+      "text": "démangeaison",
+      "start": 43.3659375,
+      "end": 43.9259375
+    },
+    {
+      "text": "en",
+      "start": 44.1659375,
+      "end": 44.3259375
+    },
+    {
+      "text": "deux",
+      "start": 44.3259375,
+      "end": 44.485937500000006
+    },
+    {
+      "text": "secondes",
+      "start": 44.485937500000006,
+      "end": 44.885937500000004
+    },
+    {
+      "text": "chrono",
+      "start": 44.9659375,
+      "end": 45.3659375
+    },
+    {
+      "text": "Vous",
+      "start": 45.845937500000005,
+      "end": 46.0059375
+    },
+    {
+      "text": "ne",
+      "start": 46.0059375,
+      "end": 46.0859375
+    },
+    {
+      "text": "risquez",
+      "start": 46.0859375,
+      "end": 46.4059375
+    },
+    {
+      "text": "rien",
+      "start": 46.4059375,
+      "end": 46.7259375
+    },
+    {
+      "text": "offrez",
+      "start": 46.9659375,
+      "end": 47.2859375
+    },
+    {
+      "text": "lui",
+      "start": 47.2859375,
+      "end": 47.3659375
+    },
+    {
+      "text": "la",
+      "start": 47.3659375,
+      "end": 47.5259375
+    },
+    {
+      "text": "cure",
+      "start": 47.5259375,
+      "end": 47.76593750000001
+    },
+    {
+      "text": "de",
+      "start": 47.76593750000001,
+      "end": 47.845937500000005
+    },
+    {
+      "text": "quatrevingtdix",
+      "start": 47.845937500000005,
+      "end": 48.485937500000006
+    },
+    {
+      "text": "jours",
+      "start": 48.485937500000006,
+      "end": 48.8059375
+    }
+  ]
+}

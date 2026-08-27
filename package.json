@@ -1,0 +1,13 @@
+{
+  "name": "video-parlee",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.6.12 preview",
+    "check": "npx --yes hyperframes@0.6.12 lint && npx --yes hyperframes@0.6.12 inspect",
+    "draft": "npx --yes hyperframes@0.6.12 render --quality draft --fps 24 --workers 2 -o renders/draft.mp4 .",
+    "final": "npx --yes hyperframes@0.6.12 render --quality high --fps 30 --workers 2 -o renders/final.mp4 .",
+    "captions": "node scripts/build-captions.mjs",
+    "audio": "bash scripts/check-audio.sh"
+  }
+}

@@ -1,0 +1,36 @@
+# ─── Intermédiaires régénérables ─────────────────────────────────────────────
+# work/ = slots, planches QC, stills 2K, logs de rendu (~217 Mo)
+# broll.mp4 = timeline assemblée, refaite par scripts/build-broll-cachet.py
+work/
+broll.mp4
+node_modules/
+.DS_Store
+
+# ─── Rendus lourds ───────────────────────────────────────────────────────────
+# Le master 9:16 (60 Mo) et le draft se régénèrent en ~2 min :
+#   npx hyperframes render . -o renders/final.mp4 -q high -f 30 -w 2
+# Seule la déclinaison 4:5 est versionnée, comme témoin du montage validé.
+renders/*.mp4
+!renders/JJ_20260706_IMD_POVCACHET_V1_4x5.mp4
+
+# ─── B-rolls ─────────────────────────────────────────────────────────────────
+# On garde les 18 clips générés (brolls-gen/) et les 2 clips recyclés utilisés.
+# Le reste de brolls/ = candidats audités, retéléchargeables depuis Drive.
+brolls/*
+!brolls/broll_maman-cachet-dans-fromage_3s_muet_clipA.mp4
+!brolls/broll_maman-cachet-dans-beurre-cacahuete_3s_muet_clipB.mp4
+
+# ─── Assets tiers sous licence (ne pas redistribuer) ─────────────────────────
+# sfx/library = symlink vers la librairie du skill (licence Mixkit, clause 9.4)
+# sfx/*.wav = mixes intermédiaires, refaits par build-sfx.py
+sfx/library
+sfx/*.wav
+sfx/music/
+sources/musique/
+assets/musique-wiggle.mp3
+sources/*.wav
+
+# ─── Références client volumineuses ──────────────────────────────────────────
+refs/inspiration-wuffes.mp4
+refs/exemple-*.mp4
+refs/badges/

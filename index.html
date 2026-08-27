@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<title>JJ_20260706_IMD_POVCACHET_V1 — Vitamii 1080×1920</title>
+<style>
+/* ═══════════════ TOKENS — charte Vitamii (brand book 2024) ═══════════════ */
+:root {
+  --bg:      #112B1E;   /* vert forêt */
+  --text:    #FEFBED;   /* blanc écru */
+  --accent:  #ED6A44;   /* orange safran */
+  --accent-2:#FFC747;   /* jaune soleil */
+  --soft:    #D5E6AD;   /* vert céleri */
+  --font-display: "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif;
+  --font-ui: "Albert Sans", system-ui, sans-serif;
+}
+@font-face {
+  font-family: "Albert Sans";
+  src: url("fonts/AlbertSans.ttf") format("truetype");
+  font-weight: 100 900; font-style: normal;
+}
+@font-face {
+  font-family: "Albert Sans";
+  src: url("fonts/AlbertSans-Italic.ttf") format("truetype");
+  font-weight: 100 900; font-style: italic;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--text); font-family: var(--font-ui); overflow: hidden; }
+#main { position: relative; width: 1080px; height: 1920px; background: var(--bg); overflow: hidden; }
+
+/* ═══════════════ B-ROLL plein cadre ═══════════════ */
+#broll-wrap { position: absolute; inset: 0; z-index: 1; overflow: hidden; }
+#broll { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+
+/* glow apaisant sur le plan 3 (les rougeurs de la source ne s'estompent pas) */
+#soothe {
+  position: absolute; inset: 0; z-index: 4; pointer-events: none; opacity: 0;
+  background: radial-gradient(ellipse 70% 55% at 50% 46%,
+              rgba(213,230,173,0.30) 0%, rgba(213,230,173,0.12) 55%, rgba(213,230,173,0) 100%);
+}
+
+/* scrim discret derrière les captions — lisibilité public âgé, sans « bandeau TV » */
+#scrim {
+  position: absolute; left: 0; width: 1080px; top: 1150px; height: 770px;
+  z-index: 20; pointer-events: none; opacity: 0;
+  background: linear-gradient(180deg, rgba(17,43,30,0) 0%,
+              rgba(17,43,30,0.28) 45%, rgba(17,43,30,0.40) 100%);
+}
+
+/* ═══════════════ CAPTIONS — phrases entières (consigne CDC) ═══════════════ */
+#captions { position: absolute; left: 0; right: 0; top: 1215px; height: 300px; z-index: 32; }
+.caption-group {
+  position: absolute; left: 64px; right: 64px; top: 50%;
+  transform: translateY(-50%); opacity: 0;
+  display: flex; flex-wrap: wrap; gap: 12px 12px;
+  align-items: center; justify-content: center; text-align: center;
+}
+.caption-group .word {
+  font-family: var(--font-ui); font-weight: 600; font-size: 46px; line-height: 1.3;
+  color: var(--text);
+  text-shadow: 0 2px 12px rgba(17,43,30,0.72), 0 0 4px rgba(17,43,30,0.55);
+}
+.caption-group.xl .word {
+  font-family: var(--font-display); font-weight: 700; font-size: 50px; line-height: 1.24;
+}
+.caption-group .word.pivot,
+.caption-group .word.chip,
+.caption-group .word.brand {
+  display: inline-block; text-shadow: none;
+  padding: 6px 24px; border-radius: 48px; transform: rotate(-2deg);
+  box-shadow: 0 3px 14px rgba(17,43,30,0.30);
+}
+.caption-group .word.pivot { background: var(--accent);   color: var(--text); font-weight: 700; }
+.caption-group .word.chip  { background: var(--soft);     color: var(--bg);
+                             border: 3px solid var(--bg); font-weight: 700; }
+.caption-group .word.brand { background: var(--accent-2); color: var(--bg);
+                             font-weight: 800; transform: rotate(-1.5deg); }
+
+/* ═══════════════ HORLOGE plan 11 (10 minutes chaque jour) ═══════════════ */
+#ov-clock { position: absolute; top: 340px; right: 64px; width: 200px; height: 200px; z-index: 24; }
+#clock-core { opacity: 0; transform-origin: 50% 50%; position: absolute; inset: 0; }
+#clock-face {
+  position: absolute; inset: 0; border-radius: 50%;
+  background: rgba(254,251,237,0.96); border: 6px solid var(--bg);
+  box-shadow: 0 5px 18px rgba(17,43,30,0.35);
+}
+#clock-face .tick {
+  position: absolute; left: 50%; top: 8px; width: 6px; height: 16px;
+  margin-left: -3px; background: var(--bg); border-radius: 3px;
+  transform-origin: 50% 92px;
+}
+.hand { position: absolute; left: 50%; bottom: 50%; background: var(--bg);
+        border-radius: 6px; transform-origin: 50% 100%; }
+#hand-min  { width: 10px; height: 72px; margin-left: -5px; }
+#hand-hour { width: 12px; height: 46px; margin-left: -6px; background: var(--accent); }
+#clock-dot { position: absolute; left: 50%; top: 50%; width: 20px; height: 20px;
+             margin: -10px 0 0 -10px; border-radius: 50%; background: var(--bg); }
+
+/* ═══════════════ CHIPS 12 ACTIFS plan 16 ═══════════════ */
+.ing-chip {
+  position: absolute; opacity: 0; z-index: 24;
+  background: var(--soft); color: var(--bg); border: 3px solid var(--bg);
+  border-radius: 44px; padding: 8px 20px;
+  font-family: var(--font-ui); font-weight: 700; font-size: 29px; white-space: nowrap;
+  box-shadow: 0 3px 12px rgba(17,43,30,0.28);
+}
+.ing-chip.l { left: 44px; }
+.ing-chip.r { right: 44px; }
+.ing-chip:nth-child(odd)  { transform: rotate(-2deg); }
+.ing-chip:nth-child(even) { transform: rotate(1.8deg); }
+
+/* ═══════════════ BADGE « CURE 90 JOURS » plan 21 ═══════════════ */
+.round-badge { position: absolute; width: 250px; height: 250px; }
+.round-badge svg { width: 100%; height: 100%; overflow: visible; }
+#ov-90 { top: 340px; right: 58px; z-index: 24; }
+#ov-90 .ring-text { font-family: var(--font-ui); font-weight: 700; font-size: 21px;
+                    letter-spacing: 2.6px; fill: var(--text); }
+#b90-core { opacity: 0; transform-origin: 50% 50%; }
+.b90-center { font-family: var(--font-display); fill: var(--text); text-anchor: middle; }
+
+/* ═══════════════ END CARD CTA ═══════════════ */
+#endcard {
+  position: absolute; inset: 0; z-index: 40; background: var(--bg);
+  clip-path: circle(0% at 50% 58%);
+  display: flex; flex-direction: column; align-items: center;
+}
+#endcard .logo { width: 660px; margin-top: 690px; opacity: 0; }
+#endcard .cta {
+  margin-top: 96px; opacity: 0;
+  background: var(--accent-2); color: var(--bg);
+  font-family: var(--font-display); font-weight: 800; font-size: 46px;
+  padding: 24px 54px; border-radius: 70px; transform: rotate(-1.5deg);
+  box-shadow: 0 6px 0 rgba(0,0,0,0.18);
+}
+#endcard .sub {
+  margin-top: 52px; opacity: 0;
+  font-family: var(--font-ui); font-weight: 500; font-size: 31px;
+  color: rgba(254,251,237,0.78); letter-spacing: 0.04em;
+}
+</style>
+</head>
+<body>
+
+<div id="main" data-composition-id="main" data-width="1080" data-height="1920"
+     data-start="0" data-duration="51.5">
+
+  <!-- b-roll plein cadre, muet — le son vient des <audio> -->
+  <div id="broll-wrap">
+    <video id="broll" class="clip" src="broll.mp4" muted playsinline
+           data-start="0" data-duration="51.5" data-track-index="0"></video>
+  </div>
+
+  <!-- voix à plein niveau, bande-son (SFX + musique) en dessous -->
+  <audio id="voice" class="clip" src="sources/vo-loud.m4a"
+         data-start="0" data-duration="48.8" data-track-index="2" data-volume="1.0"></audio>
+  <audio id="soundtrack" class="clip" src="sfx/soundtrack-final.m4a"
+         data-start="0" data-duration="51.5" data-track-index="4" data-volume="0.50"></audio>
+
+  <div id="soothe"></div>
+  <div id="scrim"></div>
+
+  <!-- horloge « 10 minutes chaque jour » (21,9 → 24,7) -->
+  <div id="ov-clock" class="clip" data-start="21.5" data-duration="3.5" data-track-index="11">
+    <div id="clock-core">
+      <div id="clock-face">
+        <div class="tick" style="transform:rotate(0deg)"></div>
+        <div class="tick" style="transform:rotate(90deg)"></div>
+        <div class="tick" style="transform:rotate(180deg)"></div>
+        <div class="tick" style="transform:rotate(270deg)"></div>
+      </div>
+      <div class="hand" id="hand-hour"></div>
+      <div class="hand" id="hand-min"></div>
+      <div id="clock-dot"></div>
+    </div>
+  </div>
+
+  <!-- 12 actifs — chips en deux colonnes autour du pot (34,0 → 37,6) -->
+  <div id="ov-ings" class="clip" data-start="33.6" data-duration="4.15" data-track-index="12">
+    <div class="ing-chip l" id="ing-1"  style="top: 400px">Oméga 3</div>
+    <div class="ing-chip r" id="ing-2"  style="top: 400px">Colostrum</div>
+    <div class="ing-chip l" id="ing-3"  style="top: 520px">Citrouille</div>
+    <div class="ing-chip r" id="ing-4"  style="top: 520px">L-Glutamine</div>
+    <div class="ing-chip l" id="ing-5"  style="top: 640px">Bêta-glucanes</div>
+    <div class="ing-chip r" id="ing-6"  style="top: 640px">Huile d'onagre</div>
+    <div class="ing-chip l" id="ing-7"  style="top: 760px">Quercétine</div>
+    <div class="ing-chip r" id="ing-8"  style="top: 760px">Bromélaïne</div>
+    <div class="ing-chip l" id="ing-9"  style="top: 880px">Vitamine E</div>
+    <div class="ing-chip r" id="ing-10" style="top: 880px">Zinc</div>
+    <div class="ing-chip l" id="ing-11" style="top: 1000px">Prébiotiques</div>
+    <div class="ing-chip r" id="ing-12" style="top: 1000px">Probiotiques</div>
+  </div>
+
+  <!-- badge « Cure 90 jours · efficacité ou remboursé » (47,6 → 49,2) -->
+  <div id="ov-90" class="round-badge clip" data-start="47.2" data-duration="2.3" data-track-index="13">
+    <svg viewBox="0 0 250 250">
+      <g id="b90-core">
+        <circle cx="125" cy="125" r="121" fill="#ED6A44"/>
+        <path id="b90-circ" d="M 125,125 m -92,0 a 92,92 0 1,1 184,0 a 92,92 0 1,1 -184,0" fill="none"/>
+        <text class="ring-text"><textPath href="#b90-circ" startOffset="0">EFFICACITÉ&#160;&#160;OU&#160;&#160;REMBOURSÉ&#160;&#160;✦&#160;&#160;</textPath></text>
+        <text class="b90-center" x="125" y="106" font-size="26" font-weight="700" letter-spacing="3">CURE</text>
+        <text class="b90-center" x="125" y="160" font-size="62" font-weight="800">90 J</text>
+      </g>
+    </svg>
+  </div>
+
+  <!-- end card CTA (iris à 49,15) -->
+  <div id="endcard" class="clip" data-start="48.9" data-duration="2.6" data-track-index="14">
+    <img class="logo" id="ec-logo" src="assets/brand/logo-transparent.png" alt="Vitamii" />
+    <div class="cta" id="ec-cta">Découvrir sur vitamii.fr</div>
+    <div class="sub" id="ec-sub">Cure 90 jours · Efficacité ou remboursé</div>
+  </div>
+
+  <div id="captions"></div>
+
+  <script src="vendor/gsap.min.js"></script>
+  <script src="captions.js"></script>
+  <script>
+  window.__timelines = window.__timelines || {};
+  const tl = gsap.timeline({ paused: true });
+  const DUR = 51.5;
+
+  /* ── scrim captions : un seul fade-in, un seul fade-out (jamais par groupe) */
+  tl.fromTo("#scrim", { opacity: 0 }, { opacity: 1, duration: 0.6, ease: "power1.out" }, 0.0);
+  tl.to("#scrim", { opacity: 0, duration: 0.5, ease: "power1.in" }, 48.95);
+
+  /* ── glow apaisant sur le plan 3 (5,04 → 7,30) — compense les rougeurs persistantes */
+  tl.fromTo("#soothe", { opacity: 0 }, { opacity: 1, duration: 0.9, ease: "power1.inOut" }, 5.30);
+  tl.to("#soothe", { opacity: 0, duration: 0.35, ease: "power1.in" }, 6.95);
+
+  /* ── captions : groupes phrase par phrase */
+  (function buildCaptions(){
+    const host = document.getElementById("captions");
+    if (!host || !window.CAPTIONS) return;
+    window.CAPTIONS.forEach((group, idx) => {
+      const g = document.createElement("div");
+      g.className = "caption-group" + (group.cls ? " " + group.cls : "");
+      g.id = "cg-" + idx;
+      group.words.forEach((w) => {
+        const el = document.createElement("span");
+        el.className = "word" + (w.pivot ? " pivot" : "") + (w.chip ? " chip" : "")
+                     + (w.brand ? " brand" : "");
+        el.textContent = w.text;
+        g.appendChild(el);
+      });
+      host.appendChild(g);
+      tl.fromTo("#cg-" + idx, { opacity: 0, y: 10 },
+                { opacity: 1, y: 0, duration: 0.22, ease: "power2.out" }, group.start);
+      tl.to("#cg-" + idx, { opacity: 0, y: -8, duration: 0.18, ease: "power2.in" },
+            group.end - 0.06);
+      tl.set("#cg-" + idx, { opacity: 0, visibility: "hidden" }, group.end + 0.14);
+    });
+  })();
+
+  /* ── horloge : pop sur « 10 minutes » (21,86), aiguilles qui filent, sortie 24,7 */
+  tl.fromTo("#clock-core", { opacity: 0, scale: 0.5, rotation: -12 },
+            { opacity: 1, scale: 1, rotation: -6, duration: 0.5, ease: "back.out(1.6)" }, 21.60);
+  tl.fromTo("#hand-min",  { rotation: 0 },   { rotation: 1080, duration: 2.9, ease: "power1.in" }, 21.75);
+  tl.fromTo("#hand-hour", { rotation: 40 },  { rotation: 220,  duration: 2.9, ease: "power1.in" }, 21.75);
+  tl.to("#clock-core", { opacity: 0, scale: 0.88, duration: 0.28, ease: "power2.in", overwrite: "auto" }, 24.66);
+
+  /* ── 12 actifs : cascade de chips autour du pot (34,0 → 36,2), sortie avant fin de slot */
+  for (let i = 1; i <= 12; i++) {
+    tl.fromTo("#ing-" + i, { opacity: 0, scale: 0.3, y: 16 },
+              { opacity: 1, scale: 1, y: 0, duration: 0.4, ease: "back.out(1.7)" },
+              33.95 + (i - 1) * 0.19);
+  }
+  tl.to("#ov-ings", { opacity: 0, y: -12, duration: 0.32, ease: "power2.in" }, 37.38);
+
+  /* ── badge 90 jours : slam sur « 90 » (47,85 − 0,3), lente dérive, sortie à l'iris */
+  tl.fromTo("#b90-core", { opacity: 0, scale: 0.55, rotation: 14 },
+            { opacity: 1, scale: 1, rotation: 6, duration: 0.55, ease: "back.out(1.6)" }, 47.55);
+  tl.to("#b90-core", { rotation: -3, duration: 1.3, ease: "none", overwrite: "auto" }, 48.15);
+  tl.to("#b90-core", { opacity: 0, scale: 0.9, duration: 0.25, ease: "power2.in", overwrite: "auto" }, 49.20);
+
+  /* ── end card : iris vert forêt après « jours » (fin VO 48,81) */
+  tl.fromTo("#endcard", { clipPath: "circle(0% at 50% 58%)" },
+            { clipPath: "circle(148% at 50% 58%)", duration: 0.6, ease: "expo.inOut" }, 49.15);
+  tl.fromTo("#ec-logo", { opacity: 0, scale: 1.14, filter: "blur(10px)" },
+            { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.55, ease: "power3.out" }, 49.35);
+  tl.fromTo("#ec-cta", { opacity: 0, scale: 0.4 },
+            { opacity: 1, scale: 1, duration: 0.5, ease: "back.out(1.7)" }, 49.72);
+  tl.fromTo("#ec-sub", { opacity: 0, y: 12 },
+            { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" }, 50.02);
+  tl.to("#ec-cta", { scale: 1.05, duration: 0.18, ease: "power2.out" }, 50.62);
+  tl.to("#ec-cta", { scale: 1.0, duration: 0.22, ease: "power2.in" }, 50.80);
+
+  window.__timelines["main"] = tl;
+  </script>
+</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+# Dépendances Python du pipeline — Python 3.12
+#
+#   python3.12 -m venv .venv
+#   .venv/bin/pip install -r scripts/requirements.txt
+
+# Indispensables partout (détection de silences, mix SFX, bande-son)
+numpy>=2.0
+scipy>=1.14
+
+# ASR verbatim local — Apple Silicon UNIQUEMENT (mlx ne s'installe pas ailleurs).
+# Sur Windows/Linux : commenter ces 2 lignes et voir references/01-installation.md
+# (faster-whisper / WhisperX + scripts/asr-to-words.py).
+mlx-qwen3-asr>=0.3.5
+mlx>=0.31.0

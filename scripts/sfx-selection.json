@@ -1,0 +1,187 @@
+{
+  "_comment": [
+    "La SÉLECTION : 16 sons tirés de la librairie fournie (assets/sfx-library/, 530 fichiers),",
+    "avec le réglage exact — coupure passe-bas, durée de troncature, normalisation — qui leur",
+    "donne la couleur grave utilisée par ce kit.",
+    "",
+    "530 sons, c'est trop pour choisir. Ces 16-là font tout le travail : ils sont déjà branchés",
+    "dans la banque en tête de build-sfx.py. Le catalogue complet est dans",
+    "assets/sfx-library/CATALOG.md si tu cherches autre chose.",
+    "",
+    "Les clés 'role' correspondent aux variables de la banque dans build-sfx.py.",
+    "lpf = coupure passe-bas en Hz · trim = durée max conservée en s ·",
+    "norm = niveau de normalisation avant placement.",
+    "",
+    "Licence Mixkit : usage libre dans TES vidéos, y compris commerciales, sans attribution —",
+    "mais rediffusion des fichiers à un tiers interdite (clause 9.4). Voir LICENCE.md."
+  ],
+  "sounds": [
+    {
+      "role": "paper_slide",
+      "id": 1530,
+      "category": "paper",
+      "file": "1530-paper-slide.mp3",
+      "lpf": 3000,
+      "trim": 0.9,
+      "norm": 0.65,
+      "usage": "entrée de scène douce, reveal de logo (lead-in), notification, message"
+    },
+    {
+      "role": "paper_quick",
+      "id": 2380,
+      "category": "paper",
+      "file": "2380-paper-quick-movement.mp3",
+      "lpf": 3000,
+      "trim": 0.45,
+      "norm": 0.6,
+      "usage": "carte qui arrive, chip, tag secondaire"
+    },
+    {
+      "role": "page_turn",
+      "id": 1104,
+      "category": "paper",
+      "file": "1104-page-turn-single.mp3",
+      "lpf": 3500,
+      "trim": 0.8,
+      "norm": 0.6,
+      "usage": "dossier, candidature, page qui tourne (clip-path wipe)"
+    },
+    {
+      "role": "page_var_1",
+      "id": 1100,
+      "category": "paper",
+      "file": "1100-paper-magazine-paging.mp3",
+      "lpf": 3500,
+      "trim": 0.8,
+      "norm": 0.5,
+      "usage": "variante pour cascade — alterner les variantes évite l'effet mécanique"
+    },
+    {
+      "role": "page_var_2",
+      "id": 1101,
+      "category": "paper",
+      "file": "1101-single-book-paging.mp3",
+      "lpf": 3500,
+      "trim": 0.8,
+      "norm": 0.5,
+      "usage": "variante pour cascade"
+    },
+    {
+      "role": "page_var_3",
+      "id": 1105,
+      "category": "paper",
+      "file": "1105-big-paper-page-turn.mp3",
+      "lpf": 3500,
+      "trim": 0.8,
+      "norm": 0.5,
+      "usage": "variante pour cascade, la plus ample des quatre"
+    },
+    {
+      "role": "sub_boom",
+      "id": 1694,
+      "category": "boom",
+      "file": "1694-short-explosion.mp3",
+      "lpf": 400,
+      "trim": 0.7,
+      "norm": 0.65,
+      "usage": "LE corps de tous les gros moments. À 350 Hz pour un payoff, 400 Hz en usage courant, 500 Hz sur un impact sec. Jamais seul : c'est la 3e couche."
+    },
+    {
+      "role": "bass_hit",
+      "id": 2299,
+      "category": "hit",
+      "file": "2299-short-bass-hit.mp3",
+      "lpf": 1500,
+      "trim": 0.9,
+      "norm": 0.75,
+      "usage": "l'atterrissage d'un compteur, un chiffre clé, un CTA. Le son le plus utile du lot."
+    },
+    {
+      "role": "wood_hit",
+      "id": 2182,
+      "category": "impact",
+      "file": "2182-wood-hard-hit.mp3",
+      "lpf": 2500,
+      "trim": 0.8,
+      "norm": 0.85,
+      "usage": "tampon, slam, quelque chose d'officiel. À 1800-2000 Hz pour un impact plus mat."
+    },
+    {
+      "role": "deep_impact",
+      "id": 1143,
+      "category": "impact",
+      "file": "1143-cinematic-whoosh-deep-impact.mp3",
+      "lpf": 1500,
+      "trim": 1.0,
+      "norm": 0.7,
+      "usage": "une chute, un « -X % », un effondrement de barres"
+    },
+    {
+      "role": "whoosh_fast",
+      "id": 1490,
+      "category": "whoosh",
+      "file": "1490-fast-whoosh-transition.mp3",
+      "lpf": 2500,
+      "trim": 0.5,
+      "norm": 0.55,
+      "usage": "transition marquée (wipe) — à placer 0,25 s AVANT le cut de scène"
+    },
+    {
+      "role": "tunnel_whoosh",
+      "id": 1486,
+      "category": "whoosh",
+      "file": "1486-cinematic-tunnel-reverb-woosh.mp3",
+      "lpf": 2000,
+      "trim": 1.0,
+      "norm": 0.55,
+      "usage": "montée d'énergie, appel d'attention, jauge qui se remplit"
+    },
+    {
+      "role": "bass_trans",
+      "id": 2295,
+      "category": "transition",
+      "file": "2295-pulsating-bass-transition.mp3",
+      "lpf": 1500,
+      "trim": 0.55,
+      "norm": 0.6,
+      "usage": "transition portée par les graves — alterner avec whoosh_fast d'un wipe à l'autre"
+    },
+    {
+      "role": "bass_rumble",
+      "id": 2297,
+      "category": "transition",
+      "file": "2297-bass-rumble-hum.mp3",
+      "lpf": 400,
+      "trim": 1.2,
+      "norm": 0.45,
+      "usage": "convergence, mémoire, notion abstraite — nappe sous un autre son"
+    },
+    {
+      "role": "click_low",
+      "id": 1117,
+      "category": "click",
+      "file": "1117-classic-click.mp3",
+      "lpf": 1000,
+      "trim": 0.12,
+      "norm": 0.5,
+      "usage": "tics d'un compteur qui monte (volume croissant), sélection, mise en sourdine"
+    },
+    {
+      "role": "keyclick",
+      "id": 2533,
+      "category": "keyboard",
+      "file": "2533-single-key-type.mp3",
+      "lpf": 2500,
+      "trim": 0.16,
+      "norm": 0.65,
+      "usage": "texte qui s'écrit — un par lettre"
+    }
+  ],
+  "regles": [
+    "Passe-bas sur TOUS les sons, sans exception. Jamais au-dessus de 4000 Hz.",
+    "Layering réservé aux gros moments : foley (lead-in 200 ms avant) → impact → sub (le corps).",
+    "5 familles différentes minimum dans une vidéo, sinon le mix devient monotone.",
+    "Mono partout : plus souple à replacer dans un mix chargé.",
+    "Reverb courte si tu en ajoutes : 200-300 ms de queue, 10-15 % de wet."
+  ]
+}
